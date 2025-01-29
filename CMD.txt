@@ -1,0 +1,1 @@
+ARG=$(seq 1 100 | shuf | tr '\n' ' '); valgrind ./push_swap $ARG | ./checker $ARG

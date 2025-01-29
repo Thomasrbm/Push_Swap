@@ -1,0 +1,219 @@
+
+sorted [1, 3, 5, 7, 9 ,11]
+size = 6
+
+a = [9, 1, 5, 3, 7, 11]
+b = []
+
+pivot 1 = 2 = 3
+
+
+ra a = [1, 5, 3, 7, 11, 9]
+pb 
+
+a = [5, 3, 7, 11, 9]
+b = [1]
+
+size = 5
+
+
+ra a = [3, 7, 11, 9, 5]
+pb 
+
+a = [7, 11, 9, 5]
+b = [3, 1]
+
+size = 4
+
+ra a = [11, 9, 5, 7]
+size = 3
+
+ra a = [9, 5, 7, 11]
+size = 2
+
+
+ra a = [5, 7, 11, 9]
+size = 1
+
+
+ra a = [7, 11, 9, 5]
+size = 0
+
+
+size 4
+pivot 2 = 7
+
+pb [7, 11, 9, 5]
+
+a =  [11, 9, 5]
+b = [7 3 1]
+
+size 3
+
+
+ra
+
+size 3
+
+ra
+
+size 2
+
+ra
+
+size 1
+
+a =  [5 11 9]
+pb 
+
+a 11 9
+b 5 7 3 1
+
+
+ra 
+pb 
+
+9 5 7 3 1
+
+pb 11  9 5 7 3 1
+
+
+pa x 6
+
+
+
+12 pa/pb
+10 ra
+
+
+
+
+
+22
+
+
+
+
+
+
+
+
+
+
+
+
+3 ra
+12 pb/pa
+4 rb/rrb
+
+
+19
+
+(+3rb) donc same 
+
+
+MAIS SUR GROS ECHANTILLON BENEF
+
+
+
+
+
+
+a = [9, 1, 5, 3, 7, 11]
+
+sorted [1, 3, 5, 7, 9 ,11]
+
+
+pivot 1 = 3
+pivot 2 =  7
+
+
+size 6
+
+ra 1 5 3 7 11 9
+pb 
+
+a =  5 3 7 11 9
+b = 1
+
+
+
+size 5
+
+
+pb 
+
+a =  3 7 11 9
+b =  5 1
+
+
+size 4
+
+
+pb 
+
+
+
+a =  7 11 9
+b =  3 5 1
+
+
+size 3
+
+
+pb 
+
+
+
+a =  11 9
+b =  7 3 5 1
+
+
+size 2
+
+ra
+ra
+
+
+11 9
+
+
+
+pivot 1 = 11
+pivot 2 = int max
+
+
+pb 
+pb
+
+9 11 7 3 5 1
+
+rb
+pa
+
+a = 11
+b = 7 3 5 1 9
+
+rrb
+pa
+
+a = 9 11
+b = 7 3 5 1
+
+pa
+
+a 7 9 11
+b 3 5 1
+
+rb 
+pa
+
+a 5 7 9 11
+b 1 3
+
+
+
+rb
+pa
+
+pa

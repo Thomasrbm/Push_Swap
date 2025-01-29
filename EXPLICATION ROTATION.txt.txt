@@ -1,0 +1,117 @@
+EXPLICATION ROTATION.txt
+
+
+
+pa  JUSTE AVANT LE PLUS GROS DU DESSU
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stack A : [8, 13, 2, 477, 81, 3]
+Stack B : []
+
+
+
+13, 2, 477, 81, 3]
+8
+
+
+2, 477, 81, 3]
+13 8
+
+2, 477, 81, 3
+8 13
+
+
+
+477, 81, 3
+2 8 13
+
+
+3 477,  81, 
+
+477,  81, 
+3 2 8 13
+
+
+
+
+   
+ 81, 477,  3 2 8 13
+
+
+
+
+
+
+
+
+
+
+
+
+
+  3 2 8 13  81,
+
+
+
+
+
+
+a=   81, 477,    = POS A = 0
+b= 3 2 8 13     = POS B = 3
+
+
+
+
+scenar 0 = 0 3 
+
+scenar 1 rrr
+2 - 0 = 2
+4 - 3 = 1
+
+
+
+scenar 2      ========> best   
+POS A = 0
+4 - 3 = 1          rrb only
+
+
+
+scenar 3 
+2 - 0 = 2 
+POS B = 3
+
+
+
+
+
+
+best = 
+
+mov top a 0
+mov top b 1
+dir ra = 1
+dir rb = -1
+
+
+
+
+rrb(b)
+
+
+3 2 8 13
+13 2 8 3
+
+
+pa =   13, 81, 477,
+
